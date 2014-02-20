@@ -1,0 +1,30 @@
+{
+  "name": "pocket-sync",
+  "version": "0.0.0",
+  "description": "Sync Reading List to Pocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "keywords": [
+    "pocket",
+    "getpocket",
+    "safari",
+    "reading",
+    "list",
+    "sync",
+    "mac",
+    "ios"
+  ],
+  "author": "Joey Baker",
+  "license": "ISC",
+  "dependencies": {
+    "bplist-parser": "0.0.4"
+  },
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "chai": "^1.9.0",
+    "sinon": "^1.8.2",
+    "mocha": "^1.17.1"
+  }
+}
